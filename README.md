@@ -46,7 +46,7 @@ git clone https://github.com/johnwilliamestacio/Linux-System-Status-Script.git
 Go into the folder:
 
 ```bash
-cd linux-system-status-checker
+cd Linux-System-Status-Script
 ```
 
 Make the script executable:
