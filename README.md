@@ -2,8 +2,6 @@
 
 A simple Bash script for checking the basic status of a Linux system.
 
-This project was made as a beginner-friendly solution to the Linux System Status assignment.
-
 ## What it checks
 
 The script reports:
@@ -19,8 +17,6 @@ The script reports:
 - Logged-in users
 - Current user and whether the script is running as root
 - Current date and time
-
-These checks directly follow the main requirements of the assignment. fileciteturn0file0L3-L12
 
 ## Requirements
 
@@ -39,14 +35,12 @@ It uses simple Linux commands such as:
 
 If some optional commands are missing, the script prints a message instead of stopping completely.
 
-This follows the assignment requirement for platform support and graceful degradation. fileciteturn0file0L13-L20
-
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/linux-system-status-checker.git
+git clone https://github.com/johnwilliamestacio/linux-system-status-checker.git
 ```
 
 Go into the folder:
@@ -90,8 +84,8 @@ The actual values will depend on the Linux machine where the script is executed.
 
 SYSTEM
 ------
-Hostname : my-linux
-User     : student
+Hostname : Ubuntu
+User     : cleversec
 Date     : 2026-10-01 23:30:00+08:00
 Root     : No
 
@@ -152,8 +146,6 @@ The script only reads system information. It does not:
 - kill processes
 - create files on the Linux system
 
-This satisfies the assignment's idempotent requirement. fileciteturn0file0L23-L23
-
 ### Non-interactive
 
 The script does not ask the user for input or a password, so it can also be run without a TTY.
@@ -170,16 +162,5 @@ It does not automatically use `sudo`.
 
 ### Date format
 
-The script attempts to use RFC 3339-compatible date output as required by the assignment. fileciteturn0file0L27-L27
+The script attempts to use RFC 3339-compatible date output.
 
-## Project structure
-
-```text
-linux-system-status-checker/
-├── README.md
-└── linux-system-status.sh
-```
-
-## Author
-
-Your Name
