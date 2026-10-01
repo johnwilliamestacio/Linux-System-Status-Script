@@ -40,7 +40,7 @@ If some optional commands are missing, the script prints a message instead of st
 Clone the repository:
 
 ```bash
-git clone https://github.com/johnwilliamestacio/linux-system-status-checker.git
+git clone https://github.com/johnwilliamestacio/Linux-System-Status-Script.git
 ```
 
 Go into the folder:
